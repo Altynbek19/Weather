@@ -1,0 +1,71 @@
+.geo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.093);
+    padding: 50px;
+    margin: 20px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: 80px;
+    height: 377px;
+}
+
+.temperature_time{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.093);
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    flex-grow: 1;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 70px;
+}
+.temperature{
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    display: flex;
+}
+.geo_temperature{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+}
+.dawn{
+    display: flex;
+}
+.sunset{
+    display: flex;
+}
+
+.weekend{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.093);
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+.first_day,.second_day,.third_day,.fourth_day,.fifth_day,.sixth_day{
+    border: 1px solid black;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 100px;
+}
+
+.first_part_days{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.second_part_days{
+    display: flex;
+    flex-wrap: wrap;
+
+}
